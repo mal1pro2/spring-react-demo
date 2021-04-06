@@ -1,0 +1,169 @@
+{
+	"id": "f17f3e19-4525-bb15-a67d-6faf0474e337",
+	"name": "spring-react-demo",
+	"description": "",
+	"order": [
+		"425f3a96-8e44-071b-e94f-b6348d15e3ee",
+		"be784204-ef49-accf-2b71-06623636494e",
+		"0fc90b39-fe2b-e854-90f4-3dfbed0292a8",
+		"70bbc0ac-6a1c-0967-dd61-41c0a1258790",
+		"7b404162-81d7-4e6a-5066-a92edc4355df"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1617647094130,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0fc90b39-fe2b-e854-90f4-3dfbed0292a8",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": " http://localhost:8080/api/employees/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1617647512838,
+			"name": "get all employee",
+			"description": "",
+			"collectionId": "f17f3e19-4525-bb15-a67d-6faf0474e337",
+			"responses": [],
+			"rawModeData": "{\r\n    \"id\":3,\r\n    \"name\":\"Caron Mighty\",\r\n    \"salary\":20000\r\n}"
+		},
+		{
+			"id": "425f3a96-8e44-071b-e94f-b6348d15e3ee",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": " http://localhost:8080/api/employees/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1617647515668,
+			"name": "create employee",
+			"description": "",
+			"collectionId": "f17f3e19-4525-bb15-a67d-6faf0474e337",
+			"responses": [],
+			"rawModeData": "{\r\n    \"id\":3,\r\n    \"name\":\"Caron Mighty\",\r\n    \"salary\":20000\r\n}"
+		},
+		{
+			"id": "70bbc0ac-6a1c-0967-dd61-41c0a1258790",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": " http://localhost:8080/api/employees/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1617647511610,
+			"name": "update employee details",
+			"description": "",
+			"collectionId": "f17f3e19-4525-bb15-a67d-6faf0474e337",
+			"responses": [],
+			"rawModeData": "{\r\n    \"id\":3,\r\n    \"name\":\"Simon Caron Mighty\",\r\n    \"salary\":20450\r\n}"
+		},
+		{
+			"id": "7b404162-81d7-4e6a-5066-a92edc4355df",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": " http://localhost:8080/api/employees/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1617647510214,
+			"name": "delete employee",
+			"description": "",
+			"collectionId": "f17f3e19-4525-bb15-a67d-6faf0474e337",
+			"responses": [],
+			"rawModeData": "{\r\n    \"id\":3,\r\n    \"name\":\"Caron Mighty\",\r\n    \"salary\":20000\r\n}"
+		},
+		{
+			"id": "be784204-ef49-accf-2b71-06623636494e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": " http://localhost:8080/api/employees/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1617647514207,
+			"name": "get employee by id",
+			"description": "",
+			"collectionId": "f17f3e19-4525-bb15-a67d-6faf0474e337",
+			"responses": [],
+			"rawModeData": "{\r\n    \"id\":3,\r\n    \"name\":\"Caron Mighty\",\r\n    \"salary\":20000\r\n}"
+		}
+	]
+}
